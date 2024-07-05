@@ -2,6 +2,8 @@ import About from '../../pages/About';
 import Error from '../../pages/Error';
 import Posts from '../../pages/Posts';
 import PostIdPage from '../../pages/PostIdPage';
+import Login from '../../pages/Login';
+
 
 export const privateRoutes = [
   { path: "about", element: <About /> },
@@ -11,5 +13,6 @@ export const privateRoutes = [
 ];
 
 export const publicRoutes = [
+  { path: "login", element: <Login /> },
   { path: "error", element: <Error /> },
 ];
