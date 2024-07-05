@@ -2,7 +2,6 @@ import React, {useContext} from 'react';
 import {Link, useNavigate} from "react-router-dom";
 import MyButton from "../button/MyButton";
 import {AuthContext} from "../../../context";
-import Login from '../../../pages/Login';
 
 
 const Navbar = () => {
