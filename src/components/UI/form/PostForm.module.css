@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
